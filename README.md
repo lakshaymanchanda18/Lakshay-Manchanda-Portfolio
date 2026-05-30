@@ -139,3 +139,5 @@ RESEND_API_KEY=your_key_here
 ## License
 
 MIT — feel free to adapt for your own portfolio.
+
+Thank You
