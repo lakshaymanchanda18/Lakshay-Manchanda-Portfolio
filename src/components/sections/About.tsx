@@ -55,24 +55,21 @@ export function About() {
               <span className="text-white font-semibold">Lakshay Manchanda</span>, a
               Computer Science (AI & ML) student at the University of Petroleum and
               Energy Studies, Dehradun — with a CGPA of{" "}
-              <span className="text-cyan-400 font-mono font-semibold">8.46/10</span>.
+              <span className="text-cyan-400 font-mono font-semibold">8.56/10</span>.
             </p>
             <p className="text-slate-400 leading-relaxed">
-              My journey started with C++ algorithms and has expanded into full-stack web,
-              cross-platform mobile (React Native), and AI-augmented applications. I
-              believe the best software is both technically sound and genuinely useful —
-              which is why I care as much about clean architecture as I do about great UX.
+              My software engineering experience spans full-stack web, Java/Spring Boot backend
+              systems, cross-platform mobile apps (React Native), and AI/ML orchestration. I
+              believe the best software is both architecturally robust and genuinely empowering for users.
             </p>
             <p className="text-slate-400 leading-relaxed">
-              At Frintt Studio, I shipped 20+ reusable components for a fitness app used
-              on Android and iOS, while simultaneously contributing to the production web
-              platform — all remotely, all in TypeScript. I thrive in fast-paced
-              environments where quality and speed are both non-negotiable.
+              During my Software Engineer Internship at NIIT Limited, I built full-stack features
+              for an enterprise multi-tenant LMS using React, Java/Spring Boot, SCORM viewers, and AI roleplay
+              simulations. Previously at Frintt Studio, I created a 20+ component library for cross-platform apps.
             </p>
             <p className="text-slate-400 leading-relaxed">
-              Beyond code, I led a 6-member team at the Smart India Hackathon 2025, building
-              a multilingual healthcare chatbot that competed at the national level. I believe
-              technology should be accessible — and I build with that mission in mind.
+              Beyond engineering, I served as Team Lead and Internal College Finalist at the Smart India
+              Hackathon (SIH) 2025, guiding a 6-member team in building cross-lingual clinical conversational screening models.
             </p>
 
             {/* Goal */}
@@ -139,7 +136,7 @@ export function About() {
                 <span className="text-blue-400">{"{"}</span>
                 <br />
                 &nbsp;&nbsp;<span className="text-cyan-400">&quot;location&quot;</span>:{" "}
-                <span className="text-green-400">&quot;Dehradun, India&quot;</span>,
+                <span className="text-green-400">&quot;Karnal, Haryana, India&quot;</span>,
                 <br />
                 &nbsp;&nbsp;<span className="text-cyan-400">&quot;role&quot;</span>:{" "}
                 <span className="text-green-400">&quot;Student → Intern → Builder&quot;</span>,

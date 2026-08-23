@@ -55,8 +55,12 @@ export function Experience() {
                     <h3 className="font-display font-bold text-white text-lg">{job.role}</h3>
                     <div className="flex items-center gap-2 mt-1">
                       <span className="text-cyan-400 font-medium text-sm">{job.company}</span>
-                      <span className="text-slate-600">·</span>
-                      <span className="text-slate-400 text-sm">{job.project}</span>
+                      {job.project && (
+                        <>
+                          <span className="text-slate-600">·</span>
+                          <span className="text-slate-400 text-sm">{job.project}</span>
+                        </>
+                      )}
                     </div>
                   </div>
                   <div className="flex flex-col items-end gap-1">

@@ -57,7 +57,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Dehradun, India",
+      value: personalInfo.location,
       href: null,
       color: "#10B981",
     },

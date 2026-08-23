@@ -1,85 +1,104 @@
 export const personalInfo = {
   name: "Lakshay Manchanda",
-  title: "Full-Stack Engineer & AI/ML Developer",
-  tagline: "Building intelligent systems at the intersection of web and AI",
-  bio: "I'm a Computer Science (AI & ML) student at UPES Dehradun with a passion for building production-grade software. From cross-platform mobile apps to AI-powered civic-tech platforms, I engineer solutions that scale. Currently exploring the frontier where intelligent systems meet elegant user experiences.",
+  title: "Software Engineer | AI/ML & Backend Systems",
+  tagline: "Building intelligent systems at the intersection of web, mobile, and AI",
+  bio: "I'm a Computer Science (AI & ML) student at UPES Dehradun with a strong foundation in full-stack web, Java/Spring Boot APIs, cross-platform mobile apps, and AI/ML systems. From enterprise LMS modules to civic-tech platforms and vector search engines, I engineer scalable, production-grade solutions.",
   email: "lakshaymanchanda574@gmail.com",
   phone: "+91 9306595652",
   github: "https://github.com/lakshaymanchanda18",
   linkedin: "https://www.linkedin.com/in/lakshay-manchanda-2431a3319/",
-  location: "Dehradun, India",
-  resumeUrl: "/resume.pdf",
+  location: "Karnal, Haryana, India",
+  resumeUrl: "/Lakshay_Manchanda_Resume.pdf",
 };
 
 export const skills = [
   {
-    category: "Languages",
-    icon: "Code2",
+    category: "Languages & Backend",
+    icon: "Server",
     color: "#00D4FF",
-    items: ["C/C++", "Python", "Java", "TypeScript", "JavaScript"],
+    items: ["Java", "PHP/Laravel", "Node.js", "Express", "Spring Boot", "Next.js API Routes", "REST APIs"],
   },
   {
-    category: "Frontend / Mobile",
+    category: "Frontend & Mobile",
     icon: "Monitor",
     color: "#0066FF",
-    items: ["React", "Next.js", "React Native", "Tailwind CSS", "Vite"],
+    items: ["React", "Next.js", "React Native", "TypeScript", "JavaScript", "Tailwind CSS", "Vite"],
   },
   {
-    category: "Backend",
-    icon: "Server",
-    color: "#8B5CF6",
-    items: ["Node.js", "Express.js", "REST APIs"],
-  },
-  {
-    category: "Databases & ORM",
+    category: "Databases",
     icon: "Database",
     color: "#10B981",
-    items: ["MySQL", "PostgreSQL", "Prisma ORM", "Pinecone (Vector DB)", "Redis"],
+    items: ["MySQL", "PostgreSQL", "Prisma ORM", "SQLite"],
+  },
+  {
+    category: "Tools & Practices",
+    icon: "Wrench",
+    color: "#EC4899",
+    items: ["Git/GitHub", "Jira", "Figma", "Vercel", "Swagger/OpenAPI", "Agile/Scrum", "DSA (Intermediate)", "System Design", "Team Leadership", "Technical Documentation"],
   },
   {
     category: "AI / ML",
     icon: "Brain",
     color: "#F59E0B",
-    items: ["Google Gemini API", "NumPy", "Pandas", "Scikit-learn", "Matplotlib"],
+    items: ["LLM Orchestration", "Prompt Engineering", "RAG", "Deep Learning", "Pinecone Vector DB", "Scikit-learn", "NumPy/Pandas/Matplotlib", "Regularization (L1/L2)"],
   },
   {
-    category: "Tools & Platforms",
-    icon: "Wrench",
-    color: "#EC4899",
-    items: ["Git", "GitHub", "Jira (Agile Kanban)", "Vercel", "Figma", "Swagger/OpenAPI"],
+    category: "Core CS Subjects",
+    icon: "Code2",
+    color: "#8B5CF6",
+    items: ["OOPS", "DBMS", "OS", "COA", "DCN", "DSA", "FLAT"],
   },
 ];
 
 export const experience = [
   {
+    role: "Software Engineer Intern",
+    company: "NIIT Limited",
+    project: "Enterprise LMS Platform",
+    period: "Jun 2026 – Aug 7, 2026",
+    type: "Gurugram, India (On-site)",
+    description:
+      "Worked full stack on NIIT's multi-tenant Enterprise LMS dashboard, program/series pages, and user profile page, building React frontend features and Java/Spring Boot backend APIs.",
+    highlights: [
+      "Worked full stack on the LMS's multi-tenant dashboard, program/series pages, and the user profile page, building both the React front end and the Java/Spring Boot APIs behind it.",
+      "Designed a gamified learning journey view — streaks, milestones, and progress tracking — to make daily engagement more visual and rewarding.",
+      "Built in-app viewers for PDF, SCORM, and video content so learners could go through course material without leaving the platform.",
+      "Added animations across the app — transitions, streak celebrations, progress indicators — for a more polished feel.",
+      "Set up clickstream event tracking and built an interactive app tour, helping new users onboard and giving the product team real usage data.",
+      "Built REST APIs for the daily 'Thought of the Day' module and contributed to an AI roleplay simulation feature used for workforce skills screening.",
+    ],
+    tech: ["React", "Java", "Spring Boot", "REST APIs", "Animations", "Clickstream Tracking", "AI Roleplay"],
+    color: "#00D4FF",
+  },
+  {
     role: "React & React Native Developer Intern",
-    company: "Frintt Studio Pvt. Ltd.",
+    company: "Frintt Stuudio Pvt. Ltd.",
     project: "Back&Bone",
     period: "Nov 2025 – Mar 2026",
     type: "Remote",
     description:
-      "Worked on Back&Bone, a cross-platform fitness application serving Android & iOS users, within a professional product engineering team.",
+      "Built responsive frontend panels and cross-platform screens for Back&Bone web and mobile fitness app within a professional product engineering team.",
     highlights: [
-      "Engineered 20+ reusable UI components for Back&Bone fitness app (React Native 0.73+) maintaining design consistency across all product surfaces",
-      "Integrated RESTful APIs for real-time workout and activity tracking with Context API state management, eliminating unnecessary re-renders",
-      "Contributed concurrently to production React web platform alongside mobile development",
+      "Built responsive frontend panels for the Back&Bone web app and the matching screens on the mobile app.",
+      "Put together a shared component library of 20+ reusable UI elements to keep the web and mobile experiences visually consistent.",
+      "Integrated REST APIs to surface real-time performance and biometric activity-tracking data for users.",
     ],
-    tech: ["React Native", "React", "TypeScript", "Context API", "REST APIs"],
-    color: "#00D4FF",
+    tech: ["React Native", "React", "TypeScript", "Context API", "REST APIs", "UI Library"],
+    color: "#8B5CF6",
   },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Ultimate CS Career Architect",
+    title: "Enterprise LMS Platform Modules (Client Deployment)",
     description:
-      "A full-stack AI-powered career platform featuring a 3-layer resume audit engine with ATS scoring, specialization alignment, and content grading. Built with structured JSON generation, automatic retry logic, and comprehensive job pipeline management.",
+      "Enterprise LMS built from scratch for corporate upskilling — featuring dashboard, content catalog, daily engagement modules, and conversational AI roleplay training scenarios.",
     longDescription:
-      "Built a sophisticated AI resume audit engine using Google Gemini API that evaluates resumes across three dimensions: ATS compatibility score (0–100), specialization alignment match, and content impact grade (A–F). The full-stack architecture includes Next.js API routes, Prisma ORM with PostgreSQL, NextAuth session management, and a drag-and-drop job tracker across 5 pipeline stages.",
-    tech: ["Next.js", "TypeScript", "Google Gemini AI", "Prisma ORM", "PostgreSQL", "NextAuth", "Vercel"],
+      "Built an enterprise Learning Management System (LMS) from scratch for corporate upskilling used directly by client workforce staff. Delivered conversational AI modules that act as customer-facing characters in immersive roleplay training scenarios, using prompt-engineering schemas. Built with Java, PHP/Laravel, React, CSS, and REST APIs.",
+    tech: ["Java", "PHP/Laravel", "React", "CSS", "REST APIs", "JSON Serialization"],
     github: "https://github.com/lakshaymanchanda18",
-    demo: "#",
+    demo: null,
     featured: true,
     category: "fullstack",
     gradient: "from-cyan-500/20 to-blue-500/20",
@@ -87,12 +106,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "SaralYojna — Gov Scheme Discovery",
+    title: "Ultimate CS Career Architect — AI Resume Audit Engine",
     description:
-      "Civic-tech platform with AI-powered eligibility assessment across 500+ Indian government schemes. Features semantic similarity scoring, bilingual chatbot, and enterprise-grade security with JWT auth, 2FA, CSRF protection, and Redis caching.",
+      "A full-stack AI resume review engine scoring resumes against ATS criteria on a 0–100 scale. Features Prisma/PostgreSQL storage, NextAuth authentication, and Mermaid diagram logic visualization.",
     longDescription:
-      "A comprehensive civic-tech platform using Pinecone vector embeddings for semantic similarity scoring across 500+ government schemes. Features a Python ETL pipeline for data normalization, Google Gemini AI chatbot with Hindi/English support, PWA service worker, and full Swagger/OpenAPI documentation.",
-    tech: ["React", "Node.js", "Express", "TypeScript", "Prisma", "Pinecone", "Google Gemini AI"],
+      "Built a 3-layer AI resume review engine that scores resumes against ATS criteria on a 0–100 scale. Used Prisma and PostgreSQL for data, NextAuth for authentication, and Mermaid diagrams to visualize the scoring logic for users.",
+    tech: ["Next.js", "TypeScript", "Google Gemini API", "Prisma", "PostgreSQL", "NextAuth", "Vercel"],
     github: "https://github.com/lakshaymanchanda18",
     demo: "#",
     featured: true,
@@ -102,107 +121,122 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Dungeon Escape: Cardbound",
+    title: "SaralYojna — Government Scheme Discovery Platform",
     description:
-      "A Java-based dungeon crawler game with custom A* pathfinding, hardware-accelerated FBO lighting via OpenGL, a 3-phase boss state machine with full deck-builder mechanics, and GLSL post-processing shaders for glassmorphism UI.",
+      "Civic-tech platform helping users discover eligible government schemes covering 500+ Indian schemes using Pinecone vector database semantic search.",
     longDescription:
-      "A 6-member Agile Kanban team project using LibGDX and LWJGL3. Features custom A* pathfinding with Manhattan heuristic, dynamic radial light falloff, JSON DTO save/load system across 3 slots, and GLSL blur shaders for UI effects. Distributed as a standalone Gradle JAR.",
-    tech: ["Java", "LibGDX", "LWJGL3", "Gradle", "LDtk", "GLSL", "OpenGL"],
+      "Built a civic-tech platform that helps users discover government schemes they're eligible for, covering 500+ Indian schemes. Used a Pinecone vector database to run semantic search over eligibility criteria instead of relying on rigid keyword filters.",
+    tech: ["React", "Node.js", "Express", "TypeScript", "Prisma", "Pinecone (Vector DB)"],
     github: "https://github.com/lakshaymanchanda18",
-    demo: null,
+    demo: "#",
     featured: true,
-    category: "gamedev",
-    gradient: "from-green-500/20 to-emerald-500/20",
+    category: "fullstack",
+    gradient: "from-emerald-500/20 to-teal-500/20",
     accentColor: "#10B981",
   },
   {
     id: 4,
-    title: "TaskManager CRUD",
+    title: "Dungeon Escape: Cardbound — Desktop Game",
     description:
-      "Cross-platform mobile task manager with offline-first architecture, priority tiers, time-based reminders, and encrypted AsyncStorage persistence achieving stable 60fps animations on Android 5.0+ and iOS 12.0+.",
+      "Java desktop dungeon crawler with custom A* pathfinding using Manhattan heuristic and real-time GLSL fragment shaders for dynamic radial lighting.",
     longDescription:
-      "An offline-first React Native task management app with full CRUD operations, priority tiers, time-based reminders, and encrypted AsyncStorage persistence. Achieves stable 60fps animations via React Native Reanimated on both Android and iOS. In progress: biometric authentication via Face ID / fingerprint.",
-    tech: ["React Native", "TypeScript", "Context API", "AsyncStorage", "React Native Reanimated", "React Navigation"],
+      "Implemented A* pathfinding with a Manhattan heuristic and wall-adjacency costs to drive enemy movement. Wrote custom GLSL fragment shaders to render dynamic radial lighting and falloff effects in real time.",
+    tech: ["Java", "LibGDX", "LWJGL3", "GLSL Shaders", "Gradle", "LDtk Level Designer"],
+    github: "https://github.com/lakshaymanchanda18",
+    demo: null,
+    featured: true,
+    category: "gamedev",
+    gradient: "from-amber-500/20 to-orange-500/20",
+    accentColor: "#F59E0B",
+  },
+  {
+    id: 5,
+    title: "TaskManager — Offline-First CRUD Mobile App",
+    description:
+      "Cross-platform task management mobile app with offline-first storage via AsyncStorage and smooth 60fps animations using React Native Reanimated.",
+    longDescription:
+      "Built a cross-platform task management app with offline-first storage via AsyncStorage and smooth 60fps animations using React Native Reanimated.",
+    tech: ["React Native", "TypeScript", "Context API", "React Navigation"],
     github: "https://github.com/lakshaymanchanda18",
     demo: null,
     featured: false,
     category: "mobile",
-    gradient: "from-orange-500/20 to-yellow-500/20",
-    accentColor: "#F59E0B",
+    gradient: "from-blue-500/20 to-indigo-500/20",
+    accentColor: "#0066FF",
   },
 ];
 
 export const achievements = [
   {
-    title: "Smart India Hackathon 2025 — Team Lead",
+    title: "Smart India Hackathon (SIH) 2025 — Team Lead",
     description:
-      "Led a 6-member cross-functional team to build a multilingual healthcare chatbot for Odia-speaking rural communities. Competed at national level, improving telemedicine accessibility through AI-powered symptom-based interaction.",
+      "Internal College Finalist & Team Lead. Led a 6-member team building cross-lingual clinical conversational screening models.",
     icon: "Trophy",
     color: "#F59E0B",
-    tags: ["National Level", "Team Lead", "Healthcare AI"],
+    tags: ["SIH 2025", "Team Lead", "AI Screening"],
   },
   {
-    title: "CGPA: 8.46/10",
+    title: "CGPA: 8.56 / 10",
     description:
-      "Maintaining strong academic performance in B.Tech Computer Science (AI & ML) at UPES Dehradun while actively contributing to real-world projects and open-source.",
+      "Maintaining strong academic standing through 4th semester in B.Tech Computer Science and Engineering (Spec. AI & ML) at UPES Dehradun.",
     icon: "GraduationCap",
     color: "#00D4FF",
     tags: ["Academic Excellence", "AI/ML", "UPES"],
   },
   {
-    title: "PR Core Member — OPEN Community, UPES",
+    title: "Languages & Communication",
     description:
-      "Active core member of the developer community at UPES, contributing to open-source initiatives and fostering technical collaboration across campus.",
-    icon: "Users",
-    color: "#8B5CF6",
-    tags: ["Open Source", "Community", "Leadership"],
-  },
-  {
-    title: "National Debating Competition Organizer",
-    description:
-      "Doc and Scoring Committee Member at PRAYUDH (Debating Club, UPES). Part of the organizing committee for national-level debate competitions.",
+      "Fluent in English and Hindi. Experienced in technical documentation, public speaking, debate, and leading cross-functional developer teams.",
     icon: "Mic2",
     color: "#10B981",
-    tags: ["Leadership", "Communication", "Organization"],
+    tags: ["English", "Hindi", "Public Speaking"],
+  },
+  {
+    title: "Interests & Passions",
+    description:
+      "Cricket, competitive hackathons, DSA practice, public speaking & debate, and system design architecture.",
+    icon: "Users",
+    color: "#8B5CF6",
+    tags: ["Hackathons", "DSA", "System Design", "Cricket"],
   },
   {
     title: "Production-Grade Deployment Record",
     description:
-      "Successfully deployed multiple full-stack applications to Vercel with real-world users, combining AI integrations, vector search, and enterprise security practices.",
+      "Successfully delivered and deployed enterprise LMS modules, mobile apps, and full-stack AI web platforms with real-world users.",
     icon: "Rocket",
     color: "#EC4899",
-    tags: ["Vercel", "Production", "Deployment"],
+    tags: ["Full-Stack", "Spring Boot", "React", "AI"],
   },
 ];
 
 export const education = [
   {
-    degree: "B.Tech, Computer Science (AI & ML)",
+    degree: "B.Tech, Computer Science and Engineering (Spec. AI & ML)",
     institution: "University of Petroleum and Energy Studies (UPES)",
     location: "Dehradun, India",
     period: "2024 – 2028",
-    cgpa: "8.46 / 10",
+    cgpa: "8.56 / 10 (through 4th sem)",
     highlights: [
       "Specialization in Artificial Intelligence & Machine Learning",
-      "Core coursework: Data Structures, Algorithms, Machine Learning, DBMS",
-      "Active in developer community (OPEN Community) and debate club (PRAYUDH)",
+      "Core CS: OOPS, DBMS, OS, COA, DCN, DSA, FLAT",
+      "Class XII: 77% | Class X: 96.8%",
     ],
   },
   {
-    degree: "Class XII (PCM + CS)",
+    degree: "Class XII (Senior Secondary)",
     institution: "Senior Secondary School",
-    location: "India",
+    location: "Karnal, Haryana, India",
     period: "2024",
     cgpa: "77%",
-    highlights: [],
+    highlights: ["Physics, Chemistry, Mathematics & Computer Science"],
   },
   {
-    degree: "Class X",
+    degree: "Class X (Secondary)",
     institution: "Secondary School",
-    location: "India",
+    location: "Karnal, Haryana, India",
     period: "2022",
     cgpa: "96.8%",
-    highlights: [],
+    highlights: ["Distinction across all core academic subjects"],
   },
 ];
 

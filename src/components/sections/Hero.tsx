@@ -7,9 +7,9 @@ import Image from "next/image";
 import { personalInfo } from "@/lib/data";
 
 const TITLES = [
-  "Full-Stack Engineer",
-  "AI/ML Developer",
-  "React Native Dev",
+  "Software Engineer",
+  "AI/ML & Backend Systems",
+  "React & React Native Dev",
   "Problem Solver",
 ];
 
@@ -178,8 +178,8 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.85 }}
             >
               {[
-                { value: "4+", label: "Projects Shipped" },
-                { value: "8.46", label: "CGPA / 10" },
+                { value: "5+", label: "Projects Shipped" },
+                { value: "8.56", label: "CGPA / 10" },
                 { value: "500+", label: "Gov Schemes Indexed" },
                 { value: "20+", label: "UI Components Built" },
               ].map((stat) => (
