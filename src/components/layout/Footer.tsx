@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Code2, Heart } from "lucide-react";
 import { personalInfo, navLinks } from "@/lib/data";
+import { LeetCodeIcon } from "@/components/icons/LeetCodeIcon";
 
 export function Footer() {
   return (
@@ -74,6 +75,17 @@ export function Footer() {
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="w-4 h-4" />
+                </motion.a>
+                <motion.a
+                  href={personalInfo.leetcode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-lg border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/40 hover:bg-amber-400/10 transition-all duration-200"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  aria-label="LeetCode"
+                >
+                  <LeetCodeIcon className="w-4 h-4" />
                 </motion.a>
                 <motion.a
                   href={`mailto:${personalInfo.email}`}

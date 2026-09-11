@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowDown, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { personalInfo } from "@/lib/data";
+import { LeetCodeIcon } from "@/components/icons/LeetCodeIcon";
 
 const TITLES = [
   "Software Engineer",
@@ -167,6 +168,17 @@ export function Hero() {
               >
                 <Linkedin className="w-4 h-4" />
                 LinkedIn
+              </motion.a>
+              <motion.a
+                href={personalInfo.leetcode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-3 border border-white/10 text-slate-300 rounded-xl hover:bg-white/5 hover:border-amber-400/30 hover:text-amber-400 transition-all duration-200 text-sm"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                <LeetCodeIcon className="w-4 h-4 text-amber-400" />
+                LeetCode
               </motion.a>
             </motion.div>
 

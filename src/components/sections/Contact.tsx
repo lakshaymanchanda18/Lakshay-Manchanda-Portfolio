@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { personalInfo } from "@/lib/data";
+import { LeetCodeIcon } from "@/components/icons/LeetCodeIcon";
 
 type FormState = "idle" | "loading" | "success" | "error";
 
@@ -53,6 +54,13 @@ export function Contact() {
       value: "Lakshay Manchanda",
       href: personalInfo.linkedin,
       color: "#0066FF",
+    },
+    {
+      icon: LeetCodeIcon,
+      label: "LeetCode",
+      value: "lakshaymanchandaa18",
+      href: personalInfo.leetcode,
+      color: "#F59E0B",
     },
     {
       icon: MapPin,

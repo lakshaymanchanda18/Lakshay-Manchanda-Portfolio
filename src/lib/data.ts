@@ -7,6 +7,7 @@ export const personalInfo = {
   phone: "+91 9306595652",
   github: "https://github.com/lakshaymanchanda18",
   linkedin: "https://www.linkedin.com/in/lakshay-manchanda-2431a3319/",
+  leetcode: "https://leetcode.com/u/lakshaymanchandaa18/",
   location: "Karnal, Haryana, India",
   resumeUrl: "/Lakshay_Manchanda_Resume.pdf",
 };
