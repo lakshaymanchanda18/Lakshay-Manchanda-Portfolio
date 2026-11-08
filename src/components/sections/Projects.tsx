@@ -31,7 +31,7 @@ export function Projects() {
         <SectionHeader
           label="04. Projects"
           title="Things I've Built"
-          subtitle="Production deployments, hackathon winners, and side experiments — all TypeScript, all shipped."
+          subtitle="Production deployments, hackathon finalist solutions, and side experiments — all built and shipped."
         />
 
         {/* Filters */}

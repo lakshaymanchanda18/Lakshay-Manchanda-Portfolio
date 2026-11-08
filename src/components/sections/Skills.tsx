@@ -110,7 +110,7 @@ export function Skills() {
             → ALSO EXPLORING
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Docker", "Redis", "GraphQL", "LangChain", "Rust", "WebGL"].map((item) => (
+            {["Redis", "GraphQL", "WebGL"].map((item) => (
               <span
                 key={item}
                 className="text-xs font-mono px-3 py-1.5 rounded-lg border border-white/[0.08] text-slate-500 hover:text-slate-300 hover:border-white/20 transition-all duration-200 cursor-default"

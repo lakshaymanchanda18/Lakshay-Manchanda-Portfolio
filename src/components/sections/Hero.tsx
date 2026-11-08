@@ -191,7 +191,7 @@ export function Hero() {
             >
               {[
                 { value: "5+", label: "Projects Shipped" },
-                { value: "8.56", label: "CGPA / 10" },
+                { value: "8.57", label: "CGPA / 10" },
                 { value: "500+", label: "Gov Schemes Indexed" },
                 { value: "20+", label: "UI Components Built" },
               ].map((stat) => (

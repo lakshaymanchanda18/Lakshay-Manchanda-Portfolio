@@ -55,7 +55,7 @@ export function About() {
               <span className="text-white font-semibold">Lakshay Manchanda</span>, a
               Computer Science (AI & ML) student at the University of Petroleum and
               Energy Studies, Dehradun — with a CGPA of{" "}
-              <span className="text-cyan-400 font-mono font-semibold">8.56/10</span>.
+              <span className="text-cyan-400 font-mono font-semibold">8.57/10</span>.
             </p>
             <p className="text-slate-400 leading-relaxed">
               My software engineering experience spans full-stack web, Java/Spring Boot backend
