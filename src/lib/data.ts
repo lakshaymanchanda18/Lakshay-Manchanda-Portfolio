@@ -238,7 +238,6 @@ export const education = [
     highlights: [
       "Specialization in Artificial Intelligence & Machine Learning",
       "Core CS: OOPS, DBMS, OS, COA, DCN, DSA, FLAT",
-      "Class XII: 77% | Class X: 96.8%",
     ],
   },
   {
@@ -247,7 +246,7 @@ export const education = [
     location: "Karnal, Haryana, India",
     period: "2024",
     cgpa: "77%",
-    highlights: ["Physics, Chemistry, Mathematics & Computer Science"],
+    highlights: ["Physics, Chemistry & Mathematics"],
   },
   {
     degree: "Class X (Secondary)",
